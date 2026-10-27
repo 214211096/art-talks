@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# builds
+react_client/build/
+coverage/
+
+# env & logs
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,18 @@
+{
+  "name": "art-talks-server",
+  "version": "1.1.0",
+  "description": "Art Talks gallery API and real-time discussion server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
